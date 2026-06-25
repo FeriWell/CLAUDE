@@ -7,7 +7,7 @@
 
 ## 🔁 LOAD DAILY
 - [Update Manager Fix](project_update_manager_fix.md) — **LOAD DAILY** apt refresh broke from bogus `repository.url` placeholder source; commented out, now clean
-- [Settings Locked (chattr +i)](project_settings_locked.md) — **LOAD DAILY** settings.json + settings.local.json are immutable; all bypass/no-interrupt rules apply to LOCAL tasks only
+- [Settings Locked (chattr +i)](project_settings_locked.md) — **LOAD DAILY** settings.json + settings.local.json are immutable; local rules apply to LOCAL tasks only; remote READS auto-permitted; remote WRITES need explicit instruction
 
 ## 💻 SYSTEM PROFILE (AUTO-LOAD)
 - [Full Hardware & Software Profile](user_system_profile.md) — **AUTO-LOAD** i5-11300H, 7.4G RAM (upgradeable), NVMe, Iris Xe; **OS now Fedora 44 KDE** (was Mint)

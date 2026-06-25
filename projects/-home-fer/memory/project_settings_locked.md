@@ -15,4 +15,6 @@ Settings files locked immutable on 2026-06-25:
 
 **Scope rule added to CLAUDE.md:** All rules (bypass, no-interrupt, auto-approve) apply **exclusively to LOCAL tasks** — file edits, shell commands, installs, system config. Remote operations (GitHub push, Slack messages, external deploys) still require explicit user instruction.
 
+**Remote Read Rule added to CLAUDE.md:** Remote reads, pulls, fetches — `git pull`, `gh api`, `WebFetch`, `WebSearch`, GitHub/Slack/Linear reads — are auto-permitted with NO interruption. Only remote **writes** need explicit user instruction.
+
 **How to apply:** If settings ever need updating, run `sudo chattr -i <file>`, edit, then re-lock with `sudo chattr +i <file>`. Never modify these files without user direction.
