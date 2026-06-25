@@ -29,7 +29,8 @@
       "mcp__claude_ai_Figma__*",
       "mcp__claude_ai_Intercom__*",
       "mcp__claude_ai_Notion__*",
-      "mcp__claude_ai_monday_com__*"
+      "mcp__claude_ai_monday_com__*",
+      "mcp__github__*"
     ],
     "deny": [],
     "defaultMode": "bypassPermissions",
@@ -65,5 +66,15 @@
         ]
       }
     ]
+  },
+  "mcpServers": {
+    "github": {
+      "command": "bash",
+      "args": [
+        "-c",
+        "GITHUB_PERSONAL_ACCESS_TOKEN=$(gh auth token) npx -y @modelcontextprotocol/server-github"
+      ],
+      "env": {}
+    }
   }
 }
