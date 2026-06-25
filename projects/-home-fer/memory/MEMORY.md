@@ -1,6 +1,10 @@
 ## 🚫 HARDCODED PERMANENT RULES — NEVER OVERRIDE
+- [NO SYSTEM SCANNING](feedback_no_scanning.md) — **⛔ NEVER** re-scan hardware/software — read system_x3400pa_complete.md instead
 - [BYPASS + NO-INTERRUPT + AUTO MODE](feedback_no_interrupt.md) — **⛔ HARDCODED** `bypassPermissions` ON, run to completion without stopping — only pause if task is DONE or there is genuine DOUBT
 - [Daily Report Scope](feedback_daily_report_scope.md) — **4 repos only**: Android Pumper, Android Reports, iOS Pumper, iOS Reports — no others
+
+## 🖥️ PERMANENT SYSTEM FACTS (NEVER RE-SCAN)
+- [COMPLETE SYSTEM FACT SHEET](system_x3400pa_complete.md) — **⛔ LOAD INSTEAD OF SCANNING** X3400PA Fedora 44: all HW, SW, Android toolchain, KVM, env vars, gotchas, credentials, Claude config — ground truth
 
 ## ⭐ AUTO-LOAD DEFAULT STATE
 - [AUTO-LOAD DEFAULT MEMORY](user_autoload_default_state.md) — **LOAD EVERY SESSION** all PC info + all user info (FeriWell / iwell-systems) + default repos + active projects
