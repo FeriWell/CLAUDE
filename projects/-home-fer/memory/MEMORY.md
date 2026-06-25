@@ -31,7 +31,6 @@
 - [ASUS NumberPad Driver Installed](project_numberpad_driver_installed.md) — Installation completed, driver active after system reboot
 
 ## 🖥️ FERDELL PC (Windows — C:\Users\Fer)
-- [FERDELL Daily Tasks & Active PRs](project_ferdell_daily_tasks.md) — **LOAD for iWell Android work** iWell 23 open issues, PR #39 (Pumper v7.0.0) + PR #52 (Reports v4.0.0) GREEN/blocked by manual gate; FERDELL config routine CANCELLED 2026-06-19
 
 ## 📱 ANDROID TESTING (LOAD for build/test)
 - [Android Testing Setup — Fedora 44](reference_android_testing_linux.md) — **LOAD for any Android build/test** Fedora 44: Temurin 21 JDK (`/usr/lib/jvm/temurin-21`), dnf android-tools, manual SDK at ~/Android/Sdk (34/35/36), udev uaccess for ROG Phone; projects at ~/iwell/android (PUMPER/REPORTS), Cognito creds
