@@ -1,0 +1,30 @@
+# SECRETS — never commit
+.credentials.json
+*.credentials*
+*.token*
+*.secret*
+
+# Session transcripts and history — may contain secrets
+*.jsonl
+history.jsonl
+
+# Runtime caches and state
+cache/
+sessions/
+shell-snapshots/
+paste-cache/
+session-env/
+stats-cache.json
+mcp-needs-auth-cache.json
+policy-limits.json
+backups/
+chrome/
+file-history/
+remote-settings.json
+.last-cleanup
+.last-update-result.json
+plugins/install-counts-cache.json
+plugins/.last_inuse_sweep
+
+# Daemon and temp
+daemon/

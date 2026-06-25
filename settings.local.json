@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "defaultMode": "bypassPermissions"
+  },
+  "outputStyle": "Proactive",
+  "spinnerTipsEnabled": true,
+  "prefersReducedMotion": true
+}
